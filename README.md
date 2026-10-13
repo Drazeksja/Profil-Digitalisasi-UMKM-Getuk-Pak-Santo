@@ -1,27 +1,39 @@
-# Profil-Digitalisasi-UMKM-Getuk-Pak-Santo
-Profil UMKM Getuk Berkah Santoso, usaha getuk lindri milik Pak Santo di Dukuh Bojong, Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali, yang telah berproduksi sejak 1980-an. Dibuat sebagai luaran Program Kerja Multidisiplin KKN Tim II UNDIP 2026 untuk membantu memperkenalkan usaha dan produk getuk lindri kepada masyarakat melalui internet.
-
 # Website Getuk Berkah Santoso
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify">
 </p>
 
 Website profil UMKM Getuk Berkah Santoso, usaha getuk lindri milik Pak Santo di Dukuh Bojong, Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali. Website ini dikembangkan sebagai luaran Program Kerja Multidisiplin KKN Tim II UNDIP 2026 untuk memperkenalkan produk, sejarah usaha, dan kegiatan pendampingan UMKM kepada masyarakat melalui media digital.
+
+**Website:** [getukpaksanto.my.id](http://getukpaksanto.my.id)
 
 ---
 
 ## Daftar Isi
 
+- [Latar Belakang](#latar-belakang)
 - [Fitur Utama](#fitur-utama)
-- [Informasi Produk](#informasi-produk)
+- [Informasi Usaha](#informasi-usaha)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
 - [Instalasi dan Menjalankan Lokal](#instalasi-dan-menjalankan-lokal)
 - [Struktur Proyek](#struktur-proyek)
 - [Hosting dan Deployment](#hosting-dan-deployment)
+- [Domain dan Biaya](#domain-dan-biaya)
 - [Program Kerja Multidisiplin KKN](#program-kerja-multidisiplin-kkn)
+
+---
+
+## Latar Belakang
+
+Getuk Berkah Santoso merupakan usaha getuk lindri tradisional yang telah berproduksi sejak era 1980-an dan dikelola oleh Pak Santo (Kuntet) di Dukuh Bojong, Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali.
+
+Selama ini, pemasaran produk lebih banyak dilakukan melalui pedagang keliling. Website ini dibuat untuk menyediakan informasi usaha yang dapat diakses melalui internet, terutama bagi calon pembeli yang belum mengenal produk maupun masyarakat di luar Desa Bojong.
+
+Selain memuat profil dan informasi produk, website ini menjadi media dokumentasi kegiatan pendampingan UMKM yang dilaksanakan melalui Program Kerja Multidisiplin KKN Tim II UNDIP 2026.
 
 ---
 
@@ -29,42 +41,45 @@ Website profil UMKM Getuk Berkah Santoso, usaha getuk lindri milik Pak Santo di 
 
 | Fitur | Deskripsi |
 |---|---|
-| Beranda | Pengenalan Getuk Berkah Santoso dengan identitas usaha dan informasi produk. |
-| Tentang Kami | Menampilkan sejarah usaha, profil Pak Santo, dan lokasi produksi. |
-| Proses Pembuatan | Menjelaskan tahapan pembuatan getuk lindri dari pengolahan singkong hingga produk siap dijual. |
-| Varian Produk | Informasi empat varian getuk: Original, Coklat, Stroberi, dan Pandan. |
-| Keunggulan Produk | Informasi mengenai bahan singkong, proses pengolahan tradisional, dan produk tanpa pengawet. |
+| Beranda | Memperkenalkan Getuk Berkah Santoso dan produk yang ditawarkan. |
+| Tentang Kami | Menampilkan sejarah usaha, profil pemilik, dan lokasi usaha. |
+| Proses Pembuatan | Menjelaskan tahapan produksi getuk lindri dari pengolahan singkong hingga produk siap dijual. |
+| Varian Produk | Menampilkan empat varian getuk: Original, Coklat, Stroberi, dan Pandan. |
+| Keunggulan Produk | Menjelaskan bahan dan karakteristik produk berdasarkan informasi usaha. |
 | Testimoni | Menampilkan tanggapan pelanggan mengenai produk. |
 | Jejak KKN | Dokumentasi 11 program kerja multidisiplin yang berkaitan dengan pendampingan UMKM. |
-| Artikel Kegiatan | Menampilkan informasi lengkap setiap program kerja melalui navigasi berbasis hash tanpa memuat ulang halaman. |
-| Kontak dan Lokasi | Informasi alamat usaha, jam operasional, lokasi, dan kontak pemesanan. |
+| Artikel Kegiatan | Menampilkan detail kegiatan melalui navigasi berbasis hash tanpa memuat ulang halaman. |
+| Kontak dan Lokasi | Menyediakan informasi alamat, jam operasional, dan lokasi usaha. |
 | Pemesanan WhatsApp | Mengarahkan pengunjung ke WhatsApp untuk menghubungi pemilik usaha. |
-| Desain Responsif | Menyesuaikan tampilan untuk perangkat mobile maupun desktop. |
+| Desain Responsif | Menyesuaikan tampilan dengan perangkat mobile maupun desktop. |
 
-**Karakteristik Website**
+### Karakteristik Website
 
-- Website statis tanpa backend dan database.
-- Tidak memerlukan akun pengguna atau dashboard admin.
-- Informasi usaha dapat diakses langsung melalui browser.
-- Menggunakan ilustrasi SVG untuk mendukung tampilan website.
-- Memiliki SEO dasar melalui metadata, struktur heading, dan teks alternatif gambar.
-- Navigasi dirancang agar dapat digunakan melalui keyboard.
+- Menggunakan HTML, CSS, dan JavaScript tanpa framework frontend.
+- Tidak memerlukan backend, database, akun pengguna, atau dashboard admin.
+- Menggunakan ilustrasi SVG untuk elemen visual website.
+- Menerapkan SEO dasar melalui metadata, struktur heading, dan teks alternatif gambar.
+- Mendukung navigasi keyboard dan memperhatikan kontras warna.
+- Menggunakan hash routing untuk menampilkan detail artikel tanpa memuat ulang halaman.
+- Dapat dipublikasikan melalui layanan hosting statis.
 
 ---
 
-## Informasi Produk
+## Informasi Usaha
 
-Getuk Berkah Santoso merupakan usaha getuk lindri tradisional yang telah berproduksi sejak era 1980-an di Dukuh Bojong, Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali.
+| Informasi | Keterangan |
+|---|---|
+| Nama usaha | Getuk Berkah Santoso |
+| Pemilik | Bapak Santo (Kuntet) |
+| Produk utama | Getuk lindri tradisional |
+| Varian produk | Original, Coklat, Stroberi, Pandan |
+| Lokasi | Dukuh Bojong, Desa Bojong |
+| Kecamatan | Wonosegoro |
+| Kabupaten | Boyolali |
+| Provinsi | Jawa Tengah |
+| Website | [getukpaksanto.my.id](http://getukpaksanto.my.id) |
 
-Informasi yang ditampilkan pada website meliputi:
-
-- **Nama usaha:** Getuk Berkah Santoso.
-- **Pemilik:** Bapak Santo (Kuntet).
-- **Produk utama:** Getuk lindri tradisional.
-- **Varian:** Original, Coklat, Stroberi, dan Pandan.
-- **Lokasi:** Dukuh Bojong, Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali.
-
-Website juga menjadi media dokumentasi kegiatan KKN yang mendukung pengembangan usaha, mulai dari promosi digital, kebersihan produksi, legalitas usaha, hingga administrasi dan efisiensi dapur.
+Website memuat informasi usaha dan produk, serta dokumentasi kegiatan KKN yang berkaitan dengan legalitas usaha, kebersihan produksi, efisiensi dapur, administrasi logistik, dan promosi digital.
 
 ---
 
@@ -75,12 +90,13 @@ Website juga menjadi media dokumentasi kegiatan KKN yang mendukung pengembangan 
 | Struktur halaman | HTML5 |
 | Tampilan dan layout | CSS3 |
 | Interaksi dan navigasi | JavaScript |
-| Ilustrasi | SVG |
+| Ilustrasi visual | SVG |
 | Kontak pemesanan | WhatsApp |
-| Routing artikel | Hash-based routing |
-| Deployment | Hosting statis |
+| Navigasi artikel | Hash-based routing |
+| Hosting | Netlify |
+| Registrar domain | DomaiNesia |
 
-Website tidak menggunakan framework frontend, server backend, maupun database. Pendekatan ini dipilih agar website tetap ringan dan tidak membutuhkan pengelolaan sistem yang rumit untuk menampilkan informasi usaha.
+Website menggunakan pendekatan statis sehingga tidak memerlukan server aplikasi atau database. File website disajikan melalui layanan hosting statis, sedangkan domain khusus digunakan sebagai alamat yang dapat dibagikan kepada masyarakat.
 
 ---
 
@@ -93,25 +109,25 @@ git clone <URL-REPOSITORY>
 cd <NAMA-REPOSITORY>
 ```
 
-Ganti `<URL-REPOSITORY>` dan `<NAMA-REPOSITORY>` sesuai alamat repository GitHub.
+Ganti `<URL-REPOSITORY>` dan `<NAMA-REPOSITORY>` sesuai alamat repository GitHub yang digunakan.
 
 ### 2. Buka Proyek
 
-Buka folder proyek menggunakan Visual Studio Code atau editor pilihanmu.
+Buka folder proyek menggunakan Visual Studio Code atau editor kode lainnya.
 
 ### 3. Jalankan Website
 
-Website dapat dibuka langsung melalui file `index.html` di browser.
+Website dapat dibuka langsung melalui file `index.html` menggunakan browser.
 
-Untuk pengalaman pengembangan yang lebih nyaman, gunakan ekstensi Live Server pada Visual Studio Code, kemudian pilih **Open with Live Server**.
+Untuk pengembangan lokal, kamu juga dapat menggunakan ekstensi Live Server di Visual Studio Code, kemudian pilih **Open with Live Server**.
 
-Tidak diperlukan instalasi dependensi melalui npm maupun konfigurasi database untuk menjalankan website.
+Tidak diperlukan instalasi dependensi melalui npm, konfigurasi environment variables, maupun pembuatan database.
 
 ---
 
 ## Struktur Proyek
 
-Struktur berikut merupakan gambaran umum dan perlu disesuaikan dengan susunan file aktual repository.
+Struktur berikut merupakan gambaran umum. Sesuaikan nama file dan folder dengan struktur aktual repository.
 
 ```text
 .
@@ -128,39 +144,79 @@ Struktur berikut merupakan gambaran umum dan perlu disesuaikan dengan susunan fi
 
 Keterangan:
 
-- `index.html` — struktur halaman utama website.
-- `assets/css/` — file stylesheet untuk layout, warna, tipografi, dan tampilan responsif.
-- `assets/js/` — logika interaksi, navigasi artikel, dan fitur website.
+- `index.html` — halaman utama yang memuat struktur konten website.
+- `assets/css/` — stylesheet untuk warna, tipografi, layout, dan tampilan responsif.
+- `assets/js/` — kode JavaScript untuk interaksi, navigasi, dan fitur website.
 - `assets/images/` — aset visual dan ilustrasi yang digunakan.
-- `DESIGN.md` — dokumentasi referensi dan keputusan desain website.
-- `README.md` — dokumentasi proyek dan panduan penggunaan.
+- `DESIGN.md` — dokumentasi referensi desain dan keputusan visual.
+- `README.md` — dokumentasi proyek, teknologi, serta panduan penggunaan.
 
 ---
 
 ## Hosting dan Deployment
 
-Website dapat di-deploy menggunakan layanan hosting statis, seperti Vercel atau GitHub Pages, karena tidak memerlukan proses backend maupun database.
+Website Getuk Berkah Santoso menggunakan **Netlify** sebagai layanan hosting statis. Domain khusus `getukpaksanto.my.id` didaftarkan melalui DomaiNesia dan diarahkan ke website yang dipublikasikan di Netlify.
 
-Langkah deployment secara umum:
+Website dapat diakses melalui:
 
-1. Push repository ke GitHub.
-2. Hubungkan repository dengan layanan hosting statis.
-3. Atur direktori publik sesuai struktur proyek.
-4. Jalankan deployment dan periksa tampilan website.
-5. Pastikan tautan WhatsApp, alamat, navigasi artikel, dan tampilan mobile berfungsi dengan benar.
+**[http://getukpaksanto.my.id](http://getukpaksanto.my.id)**
 
-Penggunaan hosting statis memungkinkan website berjalan tanpa server aplikasi khusus. Apabila menggunakan domain khusus, perpanjangan domain tetap perlu diperhatikan sesuai layanan yang digunakan.
+### Proses Deployment
+
+1. Simpan kode website di repository GitHub.
+2. Hubungkan repository ke Netlify melalui fitur import project.
+3. Atur direktori publik sesuai lokasi file `index.html`.
+4. Jalankan deployment dan pastikan website dapat diakses melalui URL Netlify.
+5. Tambahkan `getukpaksanto.my.id` pada pengaturan domain di Netlify.
+6. Atur DNS domain melalui DomaiNesia sesuai instruksi yang diberikan Netlify.
+7. Periksa kembali akses website, tampilan mobile, navigasi artikel, dan tombol pemesanan WhatsApp.
+
+Jika repository sudah terhubung ke Netlify, perubahan yang dikirim ke repository dapat memicu deployment baru secara otomatis sesuai konfigurasi proyek.
+
+Dokumentasi terkait:
+
+- [Netlify Documentation](https://docs.netlify.com/)
+- [Deploy dengan Git](https://docs.netlify.com/start/quickstarts/deploy-from-repository/)
+
+---
+
+## Domain dan Biaya
+
+| Komponen | Keterangan |
+|---|---|
+| Domain | `getukpaksanto.my.id` |
+| Registrar | DomaiNesia |
+| Masa registrasi domain | 1 tahun |
+| Hosting | Netlify |
+| Jenis website | Static website |
+| Backend | Tidak digunakan |
+| Database | Tidak digunakan |
+
+Domain `getukpaksanto.my.id` digunakan sebagai alamat website Getuk Berkah Santoso selama masa registrasinya aktif. Domain dan hosting merupakan dua layanan yang berbeda: domain berfungsi sebagai alamat website, sedangkan Netlify menyediakan layanan untuk menyajikan file website kepada pengunjung.
+
+### Keberlanjutan Website
+
+- **Domain:** perlu diperpanjang melalui DomaiNesia sebelum masa aktif berakhir agar alamat website tetap dapat digunakan.
+- **Hosting:** menggunakan Netlify. Biaya mengikuti paket dan penggunaan layanan yang berlaku.
+- **Pemeliharaan:** tidak memerlukan pengelolaan server atau database. Perubahan konten tetap dapat dilakukan dengan memperbarui file website dan melakukan deployment ulang.
+
+Biaya registrasi dan perpanjangan domain mengikuti ketentuan DomaiNesia yang berlaku. Nominal biaya tidak dicantumkan di sini karena perlu disesuaikan dengan transaksi aktual. Penggunaan Netlify juga tidak berarti seluruh fitur dan penggunaan layanan selalu gratis; ketentuan paket tetap perlu diperhatikan.
 
 ---
 
 ## Program Kerja Multidisiplin KKN
 
-Website ini merupakan bagian dari Program Kerja Multidisiplin KKN Tim II UNDIP 2026 di Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali.
+Website ini merupakan salah satu luaran Program Kerja Multidisiplin KKN Tim II UNDIP 2026 di Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali.
 
-Selain memperkenalkan produk Getuk Berkah Santoso, website mendokumentasikan kegiatan pendampingan UMKM yang dilaksanakan oleh tim KKN. Dokumentasi tersebut mencakup program terkait legalitas usaha, kebersihan produksi, efisiensi dapur, administrasi logistik, dan promosi digital.
+Pembuatan website berangkat dari kebutuhan untuk memperkenalkan usaha getuk lindri milik Pak Santo yang selama ini lebih banyak dikenal melalui penjualan langsung dan pedagang keliling. Informasi yang disajikan mencakup profil usaha, sejarah, proses produksi, varian produk, kontak pemesanan, serta dokumentasi kegiatan pendampingan UMKM.
 
-Website diharapkan dapat menjadi media informasi yang tetap dapat diakses setelah program KKN selesai serta menjadi dokumentasi kegiatan mahasiswa bersama mitra UMKM.
+Bagian Jejak KKN memuat dokumentasi 11 program kerja multidisiplin agar kegiatan yang telah dilaksanakan dapat dilihat kembali dan menjadi catatan bagi pihak desa maupun tim KKN berikutnya.
+
+Website ini diharapkan dapat terus dimanfaatkan sebagai media informasi usaha setelah program KKN selesai.
 
 ---
 
-**Developed as part of KKN Tim II UNDIP 2026 — Desa Bojong, Boyolali.**
+<p align="center">
+  <strong>Developed as part of KKN Tim II UNDIP 2026</strong><br>
+  Desa Bojong, Kecamatan Wonosegoro, Kabupaten Boyolali
+</p>
